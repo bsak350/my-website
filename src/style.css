@@ -90,10 +90,13 @@ p {
 @media (max-width: 576px) {
   .mb-3,
   .mt-5,
-  .paragraph-yoga,
-  .paragraph-weather,
-  .paragraph-yogurt {
+  .primary-link {
     text-align: center;
+  }
+
+  .primary-link {
+    display: block;
+    margin: 0 20px;
   }
 
   h1 {
