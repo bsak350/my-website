@@ -86,3 +86,13 @@ p {
 .email-link:hover {
   text-decoration: underline;
 }
+
+@media (max-width: 576px) {
+  .mb-3,
+  .mt-5,
+  .paragraph-yoga,
+  .paragraph-weather,
+  .paragraph-yogurt {
+    text-align: center;
+  }
+}
